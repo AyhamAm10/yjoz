@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.flex-center
+{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded__hero_card
+{
+  border-radius:  0px 100px 0px 0px;
+}
+
+.text-gradient {
+  background: linear-gradient(60deg, #E9233A, #FFC21B 140%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
