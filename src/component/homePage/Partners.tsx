@@ -1,4 +1,4 @@
-import React from "react";
+
 import img from "../../assets/home/MOCKUP.png"
 const Partners = () => {
   return (
