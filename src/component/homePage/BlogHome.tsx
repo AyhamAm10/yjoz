@@ -22,7 +22,7 @@ export const BlogHome:React.FC = () => {
             <div className='flex flex-col gap-5'>
                 {
                     blogsList.map((item , index)=>(
-                        <div key={index} className='flex gap-4 items-center'>
+                        <div key={index} className='flex flex-col sm:flex-row gap-4 items-center'>
                             <img src={item.img} alt="blog img" className='rounded-md ' />
                             <div>
                                 <p className='text-lg font-medium text-[#252641] mb-4'>{item.title} </p>

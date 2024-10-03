@@ -31,7 +31,7 @@ const CarSLider: React.FC = () => {
     <div>
       {products && (
         <>
-          <div className="px-5 sm:px-9 lg:px-20">
+          <div className="px-3 sm:px-6 lg:px-20">
             <Slider
               data={products.productByCategory[0].products}
               Component={CartSlider}

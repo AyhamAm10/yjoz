@@ -14,7 +14,7 @@ export default {
     },
     colors: {
       primery: "#F8F8F8",
-      red: "#E9233A",
+      red: "#EF4C3C",
       black: "#0A0A0A",
       ofblack: "#828283",
       textLight: "#959595",
@@ -22,6 +22,7 @@ export default {
       ofwhite: "#E0E0E0",
       white: "#FFFFFF",
       yalwe: "#FFC21B",
+      green: "#3CB44B",
       p:"#274C5B"
     },
     screens: {

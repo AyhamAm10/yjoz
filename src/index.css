@@ -26,3 +26,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.mySwiper .swiper-pagination {
+  position: relative; 
+  margin-top: 40px; 
+}
+
