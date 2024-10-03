@@ -49,7 +49,7 @@ const Slider:React.FC<sliderProps> = ({data , Component , bg}) => {
         </Swiper>
   
         {/* Dots Pagination */}
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center mt-5">
           <div className="swiper-pagination"></div>
         </div>
         <div className='flex-center py-10'>
