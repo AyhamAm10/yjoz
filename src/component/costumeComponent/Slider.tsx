@@ -11,10 +11,11 @@ type sliderProps = {
   data : any[],
   Component : React.ComponentType<{data: any}>
   bg ?: string
+  subCategory? : any[]
 
 }
 
-const Slider:React.FC<sliderProps> = ({data , Component , bg}) => {
+const Slider:React.FC<sliderProps> = ({data , Component , bg , subCategory}) => {
 
   const screenSize = useScreenSize()
   return (
@@ -51,6 +52,16 @@ const Slider:React.FC<sliderProps> = ({data , Component , bg}) => {
         {/* Dots Pagination */}
         <div className="flex justify-center mt-5">
           <div className="swiper-pagination"></div>
+        </div>
+        <div className='flex items-center justify-around'>
+          {
+            subCategory && 
+            subCategory.map((item)=>(
+              <div key={item.id}>
+                <img className='h-16' src={item.image} alt={item.category} />
+              </div>
+            ))
+          }
         </div>
         <div className='flex-center py-10'>
           <CostumBtn value='Show All' />

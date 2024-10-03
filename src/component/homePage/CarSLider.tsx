@@ -36,24 +36,29 @@ const CarSLider: React.FC = () => {
               data={products.productByCategory[0].products}
               Component={CartSlider}
               bg="#F6F5F5"
+              subCategory={products.productByCategory[0].category.sub_categories}
             />
             <Slider
               data={products.productByCategory[1].products}
               Component={CartSlider}
               bg="#F8F8F8"
+              subCategory={products.productByCategory[1].category.sub_categories}
             />
             <Slider
               data={products.productByCategory[2].products}
+              subCategory={products.productByCategory[2].category.sub_categories}
               Component={CartSlider}
               bg="#F6F5F5"
             />
             <Slider
               data={products.productByCategory[3].products}
+              subCategory={products.productByCategory[3].category.sub_categories}
               Component={CartSlider}
               bg="#F8F8F8"
             />
             <Slider
               data={products.productByCategory[4].products}
+              subCategory={products.productByCategory[4].category.sub_categories}
               Component={CartSlider}
               bg="#F6F5F5"
             />
